@@ -16,9 +16,9 @@
   transition: all 0.2s ease;
 }
 
-.Link.active {
-  color: blue !important;
-  font-size: 30px;
+.Link:hover {
+  color: var(--primary-color);
+  transform: scale(1.1);
 }
 
 @media (max-width: 768px) {

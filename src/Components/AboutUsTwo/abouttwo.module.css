@@ -1,4 +1,4 @@
-@import '../../index.css';
+@import "../../index.css";
 
 .aboutSection {
   display: flex;
@@ -14,7 +14,6 @@
   align-items: center;
 }
 
-/* Outer container – acts as the border */
 .card {
   position: relative;
   flex: 2;
@@ -22,9 +21,8 @@
   max-width: 450px;
   min-width: 300px;
   aspect-ratio: 17/20;
-  background: var(--primary-color); /* Border color */
+  background: var(--primary-color);
   margin-inline: 40px;
-  /* Use your custom clip-path shape */
   clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 30%);
   border-radius: 30px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -107,7 +105,7 @@
 }
 
 .about .firstline p {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-weight: 400;
   font-size: 32.87px;
   line-height: 30.32px;
@@ -125,7 +123,7 @@
 }
 
 .heading h2 span {
-  font-family: 'Playfair display', serif;
+  font-family: "Playfair display", serif;
   font-weight: 400;
   color: var(--secondary-color);
 }
@@ -176,7 +174,7 @@
 }
 
 .founder h1 {
-  font-family: 'Alex Brush', serif;
+  font-family: "Alex Brush", serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 21.6px;

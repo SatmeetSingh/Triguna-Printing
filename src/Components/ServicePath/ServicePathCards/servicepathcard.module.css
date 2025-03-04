@@ -1,4 +1,4 @@
-@import '../../../index.css';
+@import "../../../index.css";
 
 .servicecard {
   display: flex;
@@ -9,6 +9,7 @@
   border-radius: 7px;
   overflow: hidden;
   position: relative;
+  cursor: pointer;
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 

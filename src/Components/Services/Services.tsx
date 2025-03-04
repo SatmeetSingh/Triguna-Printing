@@ -1,7 +1,8 @@
-import { useEffect, useState } from 'react';
-import Card from './Card/Card';
-import styles from './services.module.css';
-import servicesData from '../../assets/Allservice.json';
+import { useEffect, useState } from "react";
+import Card from "./Card/Card";
+import styles from "./services.module.css";
+import servicesData from "../../assets/Allservice.json";
+import { Link } from "react-router-dom";
 
 export interface ICards {
   cardId: number;
@@ -66,7 +67,9 @@ export default function Services() {
         <div className={styles.cardbox}>
           {visibleServices.map((service: Service) => (
             <div key={service.id} className={styles.cards}>
-              <Card service={service} />
+              <Link to={`/${service.name}`} style={{ textDecoration: "none" }}>
+                <Card service={service} />
+              </Link>
             </div>
           ))}
         </div>

@@ -1,14 +1,22 @@
-import styles from './abouttwo.module.css';
-import { PiClockClockwise } from 'react-icons/pi';
-import { MdGroups } from 'react-icons/md';
-import { FaMoneyBillWave } from 'react-icons/fa';
+import styles from "./abouttwo.module.css";
+import { PiClockClockwise } from "react-icons/pi";
+import { MdGroups } from "react-icons/md";
+import { FaMoneyBillWave } from "react-icons/fa";
 
 export default function AboutUsTwo() {
   return (
     <div className={styles.aboutSection}>
       <div className={styles.abouttwo}>
         <div className={styles.card}>
-          <div className={styles.cardInner}>
+          <div
+            className={styles.cardInner}
+            style={{
+              backgroundImage: "url(./Images/1.png)",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+          >
             <h1>18</h1>
             <p>Years of Experience</p>
           </div>

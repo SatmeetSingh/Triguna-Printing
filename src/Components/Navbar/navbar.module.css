@@ -1,5 +1,4 @@
-@import '../../index.css';
-/* Main Contact Bar Container */
+@import "../../index.css";
 .navbar {
   display: flex;
   justify-content: space-around;
